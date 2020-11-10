@@ -68,7 +68,7 @@ public class mainGame extends BasicGameState {
     }
 
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException {
-       g.setColor (darkGreen);
+        g.setColor (darkGreen);
         g.fill(new Rectangle (0,0,800,40));
         g.setColor(Color.red);
         for (Astroid a : rocks) {
